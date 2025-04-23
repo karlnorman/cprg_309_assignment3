@@ -1,0 +1,75 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.page-header {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  font-size: 1.9rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.page-header:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+  box-shadow: var(--hover-shadow);
+}
+
+.spa-services {
+  margin: 3rem 0;
+}
+
+.service-category {
+  margin-bottom: 2.5rem;
+}
+
+.category-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.service-list {
+  list-style: none;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.service-name {
+  font-size: 1.9rem;
+  margin-bottom: 0.3rem;
+  color: var(--text-color);
+}
+
+.service-description {
+  color: var(--dark-gray);
+  font-size: 1.6rem;
+}
+
+.service-pricing {
+  text-align: right;
+  min-width: 100px;
+}
+
+.service-duration {
+  display: block;
+  color: var(--light-color);
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.service-price {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.8rem;
+}

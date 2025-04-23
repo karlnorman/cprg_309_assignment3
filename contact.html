@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Shangri-la</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="image-background">
+      <img
+        src="/media assets/photos/contacts/beach-huts_converted.avif"
+        alt="beach huts"
+      />
+    </div>
+
+    <header class="header">
+      <div class="logo-container">
+        <a href="/index.html">
+          <img
+            src="/images/logo.png"
+            alt="Shangri-La Resort Logo"
+            class="logo"
+          />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/accomodations.html">Accomodations</a></li>
+          <li><a href="/dining.html">Dining</a></li>
+          <li><a href="/activities.html">Activities</a></li>
+          <li><a href="/spa.html">Spa</a></li>
+          <li><a href="/amenities.html">Amenities</a></li>
+          <li><a href="/testimonials.html">Testimonials</a></li>
+          <li><a href="/contact.html" class="active">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="weather-widget">
+        <i class="fas fa-sun weather-icon"></i>
+        <span id="temperature">--°C</span>
+        <span>Cancun, MX</span>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="page-header">
+        <h1>Contact Us</h1>
+        <p>We're here to assist you with any inquiries or reservations</p>
+      </section>
+
+      <section class="contact-container">
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Address</h3>
+              <p>
+                Boulevard Kukulcan km 12.5, Hotel Zone, 77500 Cancun, Mexico
+              </p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h3>Phone</h3>
+              <p>Reservations: +52 998 123 4567</p>
+              <p>Customer Service: +52 998 765 4321</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3>Email</h3>
+              <p>reservations@shangri-la-resort.com</p>
+              <p>info@shangri-la-resort.com</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Hours</h3>
+              <p>Reservations: 24/7</p>
+              <p>Front Desk: 24/7</p>
+              <p>Concierge: 7:00 AM - 11:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-container">
+          <h2>Send Us a Message</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select a subject</option>
+                <option value="reservation">Reservation Inquiry</option>
+                <option value="general">General Information</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          <div id="formSuccess" class="form-success hidden">
+            <i class="fas fa-check-circle"></i>
+            <h3>Thank you for your message!</h3>
+            <p>We will get back to you as soon as possible.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <h2>Our Location</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119063.75799180799!2d-86.87707432282605!3d21.079100943040507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b05aef653db%3A0xce32b73c625fcd8a!2zQ2FuY8O6biwgUS5SLiwgTcOpeGljbw!5e0!3m2!1en!2sen!4v1633612905578!5m2!1en!2sen"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="/contact.html">
+            <img
+              src="/images/logo.png"
+              alt="Shangri-La Resort Logo"
+              class="logo"
+            />
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2023 Shangri-La Resort. All rights reserved.</p>
+          <p>Cancun, Mexico | info@shangri-la-resort.com | +52 998 123 4567</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/main.js"></script>
+    <script src="/weather.js"></script>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/testimonials.css" />
+    <title>Shangri-la</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="image-background">
+      <img
+        src="https://images.pexels.com/photos/7294665/pexels-photo-7294665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Man and Woman Swimming in the Pool"
+      />
+    </div>
+
+    <header class="header">
+      <div class="logo-container">
+        <a href="/index.html">
+          <img
+            src="/images/logo.png"
+            alt="Shangri-La Resort Logo"
+            class="logo"
+          />
+        </a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/accomodations.html">Accomodations</a></li>
+          <li><a href="/dining.html">Dining</a></li>
+          <li><a href="/activities.html">Activities</a></li>
+          <li><a href="/spa.html">Spa</a></li>
+          <li><a href="/amenities.html">Amenities</a></li>
+          <li><a href="/testimonials.html" class="active">Testimonials</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+      <div class="weather-widget">
+        <i class="fas fa-sun weather-icon"></i>
+        <span id="temperature">--°C</span>
+        <span>Cancun, MX</span>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="page-header">
+        <h1>What Our Guests Are Saying</h1>
+        <p>
+          Read about the wonderful experiences our guests have had at Shangri-La
+          Beach Resort.
+        </p>
+      </section>
+    </main>
+
+    <section class="testimonials-intro">
+      <div class="rating-summary">
+        <div class="overall-rating">
+          <div class="rating-number">4.9</div>
+          <div class="rating-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="rating-count">Based on 1,240+ reviews</div>
+        </div>
+        <div class="rating-breakdown">
+          <div class="rating-category">
+            <span class="category-name">Service</span>
+            <div class="category-bar">
+              <div class="bar-fill" style="width: 98%"></div>
+            </div>
+            <span class="category-score">4.9</span>
+          </div>
+          <div class="rating-category">
+            <span class="category-name">Cleanliness</span>
+            <div class="category-bar">
+              <div class="bar-fill" style="width: 96%"></div>
+            </div>
+            <span class="category-score">4.8</span>
+          </div>
+          <div class="rating-category">
+            <span class="category-name">Comfort</span>
+            <div class="category-bar">
+              <div class="bar-fill" style="width: 98%"></div>
+            </div>
+            <span class="category-score">4.9</span>
+          </div>
+          <div class="rating-category">
+            <span class="category-name">Location</span>
+            <div class="category-bar">
+              <div class="bar-fill" style="width: 100%"></div>
+            </div>
+            <span class="category-score">5.0</span>
+          </div>
+          <div class="rating-category">
+            <span class="category-name">Value</span>
+            <div class="category-bar">
+              <div class="bar-fill" style="width: 94%"></div>
+            </div>
+            <span class="category-score">4.7</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-container">
+      <div class="testimonial-filters">
+        <div class="filter-label">Filter by:</div>
+        <div class="filter-options">
+          <button class="filter-button active" data-filter="all">All</button>
+          <button class="filter-button" data-filter="couples">Couples</button>
+          <button class="filter-button" data-filter="families">Families</button>
+          <button class="filter-button" data-filter="solo">
+            Solo Travelers
+          </button>
+          <button class="filter-button" data-filter="business">Business</button>
+        </div>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-category="families">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/women/44.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">Sarah M.</h4>
+                <div class="guest-location">Toronto, Canada</div>
+                <div class="guest-stay">Stayed: April 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"Perfect Family Vacation"</div>
+          <div class="testimonial-text">
+            <p>
+              "Our stay at Shangri La was absolutely perfect! The service was
+              impeccable, the food was delicious, and the views were
+              breathtaking. We especially loved relaxing by the infinity pool.
+              We can't wait to return!"
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Family-Friendly</span>
+            <span class="testimonial-tag">Kids Club</span>
+            <span class="testimonial-tag">Dining</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-category="business">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/men/32.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">John B.</h4>
+                <div class="guest-location">New York, USA</div>
+                <div class="guest-stay">Stayed: June 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"Absolute Paradise!"</div>
+          <div class="testimonial-text">
+            <p>
+              "The beachfront suite was amazing! Waking up to the sound of the
+              waves and stepping right onto the sand was incredible. The resort
+              offered so many activities, we never had a dull moment. Highly
+              recommend the snorkeling!"
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Business</span>
+            <span class="testimonial-tag">Conference</span>
+            <span class="testimonial-tag">Service</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-category="families">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/women/68.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">Emily K.</h4>
+                <div class="guest-location">London, UK</div>
+                <div class="guest-stay">Stayed: March 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"A Perfect Getaway with Kids"</div>
+          <div class="testimonial-text">
+            <p>
+              "We traveled with our two young children, and the Kids' Club was a
+              lifesaver! The staff were fantastic, and our kids had a blast.
+              This allowed us some much-needed relaxation time. The resort is
+              very family-friendly."
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Solo Travel</span>
+            <span class="testimonial-tag">Wellness</span>
+            <span class="testimonial-tag">Yoga</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-category="solo">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/men/52.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">David L.</h4>
+                <div class="guest-location">Melbourne, Australia</div>
+                <div class="guest-stay">Stayed: January 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"Divine Relaxation"</div>
+          <div class="testimonial-text">
+            <p>
+              "The spa experience was divine. The therapists were skilled, and
+              the atmosphere was so peaceful. It was the perfect way to unwind
+              and de-stress. We left feeling completely rejuvenated."
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Family</span>
+            <span class="testimonial-tag">Activities</span>
+            <span class="testimonial-tag">Excursions</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-category="couples">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/women/22.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">Jessica P.</h4>
+                <div class="guest-location">Madrid, Spain</div>
+                <div class="guest-stay">Stayed: February 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"A Slice of Paradise"</div>
+          <div class="testimonial-text">
+            <p>
+              "From the moment we arrived, the staff made us feel welcome and
+              well taken care of. The attention to detail was outstanding.
+              Shangri La truly lives up to its name - a little slice of
+              paradise!"
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Honeymoon</span>
+            <span class="testimonial-tag">Luxury</span>
+            <span class="testimonial-tag">Private Villa</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-category="couples">
+          <div class="testimonial-header">
+            <div class="guest-info">
+              <div class="guest-image">
+                <img
+                  src="https://randomuser.me/api/portraits/men/75.jpg"
+                  alt="random person photo"
+                />
+              </div>
+              <div class="guest-details">
+                <h4 class="guest-name">Robert B.</h4>
+                <div class="guest-location">Singapore</div>
+                <div class="guest-stay">Stayed: May 2024</div>
+              </div>
+            </div>
+            <div class="testimonial-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-title">"A Dream Honeymoon"</div>
+          <div class="testimonial-text">
+            <p>
+              Shangri-La made our honeymoon absolutely magical. From the moment
+              we arrived with a private check-in and welcome cocktails, we felt
+              like royalty. Our beachfront villa was stunning and incredibly
+              private. The couples massage at the spa was the best we've ever
+              had. Every restaurant offered incredible food and romantic
+              ambiance. If you're planning a honeymoon, look no further!
+            </p>
+          </div>
+          <div class="testimonial-tags">
+            <span class="testimonial-tag">Honeymoon</span>
+            <span class="testimonial-tag">Spa</span>
+            <span class="testimonial-tag">Ocean View</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-pagination">
+        <button class="pagination-button active">1</button>
+        <button class="pagination-button">2</button>
+        <button class="pagination-button">3</button>
+        <button class="pagination-button">4</button>
+        <button class="pagination-button next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="review-cta">
+      <div class="cta-content">
+        <h3>Share Your Experience</h3>
+        <p>
+          Have you recently stayed at Shangri-La Beach Resort? We'd love to hear
+          about your experience.
+        </p>
+        <a href="#" class="cta-button">Write a Review</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="/testimonials.html">
+            <img
+              src="/images/logo.png"
+              alt="Shangri-La Resort Logo"
+              class="logo"
+            />
+          </a>
+        </div>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <div class="footer-info">
+          <p>&copy; 2023 Shangri-La Resort. All rights reserved.</p>
+          <p>Cancun, Mexico | info@shangri-la-resort.com | +52 998 123 4567</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/main.js"></script>
+    <script src="/weather.js"></script>
+    <script src="/testimonials.js"></script>
+  </body>
+</html>

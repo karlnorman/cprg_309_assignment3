@@ -1,0 +1,116 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.page-header {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  font-size: 1.9rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.page-header:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+}
+
+.contact-container {
+  display: flex;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.contact-info,
+.contact-form-container {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  font-size: 1.5rem;
+  padding: 3rem;
+  box-shadow: var(--shadow);
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-info:hover,
+.contact-form-container:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+}
+.info-item {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.info-item i {
+  font-size: 2.4rem;
+  color: var(--primary-color);
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #ddd;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.form-success {
+  text-align: center;
+  padding: 3rem;
+}
+
+.form-success i {
+  font-size: 5rem;
+  color: green;
+  margin-bottom: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.map-section {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.map-container {
+  margin-top: 3rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  opacity: 0.6;
+}
+
+.map-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  opacity: 1;
+}

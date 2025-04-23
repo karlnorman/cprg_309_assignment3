@@ -1,0 +1,81 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.page-header {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  font-size: 1.9rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.page-header:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+  box-shadow: var(--hover-shadow);
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.amenity-card {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 0.8rem;
+  padding: 3rem;
+  font-size: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.amenity-card:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+  box-shadow: var(--hover-shadow);
+}
+
+.amenity-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.amenity-features {
+  margin-top: 2rem;
+}
+
+.amenity-features li {
+  margin-bottom: 0.8rem;
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.amenity-features li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+}
+
+.cta-section {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 5rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.cta-section:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+  box-shadow: var(--hover-shadow);
+}
