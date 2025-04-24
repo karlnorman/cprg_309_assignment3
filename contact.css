@@ -3,7 +3,7 @@ body {
 }
 
 .page-header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   padding: 3rem;
   font-size: 1.9rem;
@@ -12,7 +12,7 @@ body {
 }
 
 .page-header:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: translateY(-5px);
   box-shadow: var(--hover-shadow);
 }
@@ -26,7 +26,7 @@ body {
 .contact-info,
 .contact-form-container {
   flex: 1;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   font-size: 1.5rem;
   padding: 3rem;
@@ -37,7 +37,7 @@ body {
 
 .contact-info:hover,
 .contact-form-container:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: translateY(-5px);
   box-shadow: var(--hover-shadow);
 }

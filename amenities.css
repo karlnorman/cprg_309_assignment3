@@ -3,7 +3,7 @@ body {
 }
 
 .page-header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   padding: 3rem;
   font-size: 1.9rem;
@@ -12,7 +12,7 @@ body {
 }
 
 .page-header:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .amenity-card {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   padding: 3rem;
   font-size: 1.5rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .amenity-card:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
@@ -66,7 +66,7 @@ body {
 
 .cta-section {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5rem;
   font-size: 1.5rem;
   border-radius: 0.8rem;
@@ -75,7 +75,7 @@ body {
 }
 
 .cta-section:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .page-header {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   padding: 3rem;
   font-size: 1.9rem;
@@ -12,7 +12,7 @@ body {
 }
 
 .page-header:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
@@ -27,7 +27,7 @@ body {
 .activity-item {
   display: flex;
   gap: 3rem;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.8rem;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -35,7 +35,7 @@ body {
 }
 
 .activity-item:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
@@ -68,7 +68,7 @@ body {
 
 .activityletter {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5rem;
   border-radius: 0.8rem;
   box-shadow: var(--shadow);
@@ -76,7 +76,7 @@ body {
 }
 
 .activityletter:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
