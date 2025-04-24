@@ -13,7 +13,7 @@ body {
 
 .page-header:hover {
   background-color: rgba(255, 255, 255, 1);
-  transform: translateY(-5px);
+  transform: scale(1.05);
   box-shadow: var(--hover-shadow);
 }
 
@@ -106,7 +106,7 @@ body {
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: var(--transition);
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .map-container:hover {
