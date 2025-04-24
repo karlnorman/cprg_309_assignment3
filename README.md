@@ -114,8 +114,8 @@ Accomodations Page
 
 Dining Page
 
--pexels-valeriya-31235409_converted.avif provided by the client
-
+- Man Decorating Food
+  Photo by Yente Van Eynde: https://www.pexels.com/photo/man-decorating-food-2403391/
 - Chef Preparing Vegetable Dish on Tree Slab
   Photo by ELEVATE: https://www.pexels.com/photo/chef-preparing-vegetable-dish-on-tree-slab-1267320/
 - White Wooden Tables With Chairs Near Sea during Sunset
