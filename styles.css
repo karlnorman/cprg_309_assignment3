@@ -251,7 +251,7 @@ img {
   margin-bottom: 2rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
-  text-shadow: -1px -1px 0px var(--secondary-color),
+  text-shadow: -1px -1px 0px var(--dark-color),
     1px -1px 0px var(--secondary-color), -1px 1px 0px var(--secondary-color),
     1px 1px 0px var(--secondary-color);
 }
@@ -266,7 +266,7 @@ img {
   margin-bottom: 3rem;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   transition: var(--transition);
-  text-shadow: -1px -1px 0px var(--secondary-color),
+  text-shadow: -1px -1px 0px var(--dark-color),
     1px -1px 0px var(--secondary-color), -1px 1px 0px var(--secondary-color),
     1px 1px 0px var(--secondary-color);
 }
@@ -349,7 +349,7 @@ img {
 
 .feature-link {
   display: inline-block;
-  font-weight: 600;
+  font-size: 1.6rem;
   color: var(--primary-color);
   transition: var(--transition);
 }

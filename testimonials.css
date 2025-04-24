@@ -17,8 +17,14 @@ body {
   box-shadow: var(--hover-shadow);
 }
 
-.testimonials-intro {
-  margin: 2rem 0 4rem;
+.background-container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .rating-summary {
@@ -37,6 +43,7 @@ body {
   border-radius: 8px;
   box-shadow: var(--shadow);
   min-width: 200px;
+  border: 1px solid black;
 }
 
 .rating-number {
@@ -82,6 +89,7 @@ body {
   border-radius: 5px;
   overflow: hidden;
   margin: 0 1rem;
+  border: 1px solid black;
 }
 
 .bar-fill {
@@ -107,7 +115,7 @@ body {
 }
 
 .filter-label {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 .filter-options {
@@ -118,10 +126,10 @@ body {
 
 .filter-button {
   padding: 0.5rem 1rem;
-  background-color: var(--light-gray);
+  background-color: var(--light-color);
   border: none;
-  border-radius: 20px;
-  font-size: 1.3rem;
+  border-radius: 5px;
+  font-size: 1.6rem;
   cursor: pointer;
   transition: var(--transition);
 }
@@ -134,7 +142,7 @@ body {
 
 .testimonials-grid {
   display: grid;
-  padding: 5rem;
+  padding: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2rem;
   margin-bottom: 3rem;
